@@ -12,7 +12,7 @@ In this work, we present a new single-microphone speech dereverberation algorith
 
 | Noisy | RI2RI | MM+NP | MM+PM |
 |-------|-------|-------|-------|
-| ![Noisy 1](path/to/noisy1.png) <br> [Noisy 1 WAV](path/to/noisy1.wav) | ![RI2RI 1](path/to/ri2ri1.png) <br> [RI2RI 1 WAV](path/to/ri2ri1.wav) | ![MM+NP 1](path/to/mmnp1.png) <br> [MM+NP 1 WAV](path/to/mmnp1.wav) | ![MM+PM 1](path/to/mmpm1.png) <br> [MM+PM 1 WAV](path/to/mmpm1.wav) |
+| ![Noisy 1](noisy/0.png) <br> [Noisy 1 WAV](noisy/0.wav) | ![RI2RI 1](RI2RI/0.png) <br> [RI2RI 1 WAV](RI2RI/0.wav) | ![MM+NP 1](MM_NP/0.png) <br> [MM+NP 1 WAV](MM_NP/0.wav) | ![MM+PM 1](proposed/0.png) <br> [MM+PM 1 WAV](proposed/0.wav) |
 | ![Noisy 2](path/to/noisy2.png) <br> [Noisy 2 WAV](path/to/noisy2.wav) | ![RI2RI 2](path/to/ri2ri2.png) <br> [RI2RI 2 WAV](path/to/ri2ri2.wav) | ![MM+NP 2](path/to/mmnp2.png) <br> [MM+NP 2 WAV](path/to/mmnp2.wav) | ![MM+PM 2](path/to/mmpm2.png) <br> [MM+PM 2 WAV](path/to/mmpm2.wav) |
 | ![Noisy 3](path/to/noisy3.png) <br> [Noisy 3 WAV](path/to/noisy3.wav) | ![RI2RI 3](path/to/ri2ri3.png) <br> [RI2RI 3 WAV](path/to/ri2ri3.wav) | ![MM+NP 3](path/to/mmnp3.png) <br> [MM+NP 3 WAV](path/to/mmnp3.wav) | ![MM+PM 3](path/to/mmpm3.png) <br> [MM+PM 3 WAV](path/to/mmpm3.wav) |
 | ![Noisy 4](path/to/noisy4.png) <br> [Noisy 4 WAV](path/to/noisy4.wav) | ![RI2RI 4](path/to/ri2ri4.png) <br> [RI2RI 4 WAV](path/to/ri2ri4.wav) | ![MM+NP 4](path/to/mmnp4.png) <br> [MM+NP 4 WAV](path/to/mmnp4.wav) | ![MM+PM 4](path/to/mmpm4.png) <br> [MM+PM 4 WAV](path/to/mmpm4.wav) |
