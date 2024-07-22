@@ -15,13 +15,16 @@ In this work, we present a new single-microphone speech dereverberation algorith
 
 
 ## Table of Examples
-<body>
-    <li>
-        <audio controls>
-            <source src="noisy/0.wav" type="audio/mpeg">
-         </audio>
-    </li>
-<body>
+
+var audio = document.createElement('audio');
+var source = document.createElement('source');
+var media = document.getElementById('media');
+media.appendChild(audio);
+audio.appendChild(source);
+source.setAttribute('src', 'https://glpro.s3.amazonaws.com/_util/smpte/111.mp3');
+source.setAttribute('type', 'audio/mpeg');
+audio.setAttribute('controls', 'controls');
+<section id="media"></section>
 
 
 | Noisy | RI2RI | MM+NP | MM+PM |
