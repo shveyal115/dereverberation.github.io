@@ -3,7 +3,7 @@
 Ayal Schwartz, Sharom Gannot and Shlomo E. Chazan 
 Int.Workshop on Acoustic Signal Enhancement (IWAENC), 2024
 
-![flow](/flow5 (1).png)
+![flow](/flow5.png)
 
 In this work, we present a new single-microphone speech dereverberation algorithm. Initially, we provide empirical evidence highlighting the importance of separate processing for magnitude and phase in dereverberation tasks. Additionally, we illustrate that in our task, unlike noise reduction, certain objective metrics strongly correlate with the magnitude while others with the phase. Consequently, we propose a new architecture that consists of two modules, each of which is responsible for a different task. The first module estimates the clean magnitude, while the second is focused on estimating the phase using the noisy input phase with the estimated magnitude. Subjective tests indicate that enhancing either only the magnitude or only the phase components is insufficient for this task. In our experimental evaluation, the proposed method demonstrates a consistent improvement in the magnitude and phase compared to prior approaches that primarily address one of these aspects.
 
