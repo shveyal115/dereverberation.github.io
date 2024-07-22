@@ -16,17 +16,6 @@ In this work, we present a new single-microphone speech dereverberation algorith
 
 ## Table of Examples
 
-var audio = document.createElement('audio');
-var source = document.createElement('source');
-var media = document.getElementById('media');
-media.appendChild(audio);
-audio.appendChild(source);
-source.setAttribute('src', 'https://glpro.s3.amazonaws.com/_util/smpte/111.mp3');
-source.setAttribute('type', 'audio/mpeg');
-audio.setAttribute('controls', 'controls');
-<section id="media"></section>
-
-
 | Noisy | RI2RI | MM+NP | MM+PM |
 |-------|-------|-------|-------|
 | ![Noisy 1](noisy/0.png) <br> [Noisy 1 WAV](noisy/0.wav) | ![RI2RI 1](RI2RI/0.png) <br> [RI2RI 1 WAV](RI2RI/0.wav) | ![MM+NP 1](MM_NP/0.png) <br> [MM+NP 1 WAV](MM_NP/0.wav) | ![MM+PM 1](proposed/0.png) <br> [MM+PM 1 WAV](proposed/0.wav) |
