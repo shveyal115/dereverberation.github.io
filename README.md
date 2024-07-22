@@ -13,11 +13,6 @@ In this work, we present a new single-microphone speech dereverberation algorith
 - [Contributing](#contributing)
 - [License](#license)
 
-<audio controls>
-  <source src="noisy/0.wav" type="audio/wav">
-</audio>
-
-
 
 ## Table of Examples
 
