@@ -29,3 +29,8 @@ In this work, we present a new single-microphone speech dereverberation algorith
 | ![Noisy 10](path/to/noisy10.png) <br> [Noisy 10 WAV](path/to/noisy10.wav) | ![RI2RI 10](path/to/ri2ri10.png) <br> [RI2RI 10 WAV](path/to/ri2ri10.wav) | ![MM+NP 10](path/to/mmnp10.png) <br> [MM+NP 10 WAV](path/to/mmnp10.wav) | ![MM+PM 10](path/to/mmpm10.png) <br> [MM+PM 10 WAV](path/to/mmpm10.wav) |
 
 
+<audio controls>
+  <source src="noisy/0.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
