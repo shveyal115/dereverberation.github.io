@@ -3,18 +3,13 @@
 Ayal Schwartz, Sharom Gannot and Shlomo E. Chazan 
 Int.Workshop on Acoustic Signal Enhancement (IWAENC), 2024
 
+![flow](path/to/flow.png)
+
 In this work, we present a new single-microphone speech dereverberation algorithm. Initially, we provide empirical evidence highlighting the importance of separate processing for magnitude and phase in dereverberation tasks. Additionally, we illustrate that in our task, unlike noise reduction, certain objective metrics strongly correlate with the magnitude while others with the phase. Consequently, we propose a new architecture that consists of two modules, each of which is responsible for a different task. The first module estimates the clean magnitude, while the second is focused on estimating the phase using the noisy input phase with the estimated magnitude. Subjective tests indicate that enhancing either only the magnitude or only the phase components is insufficient for this task. In our experimental evaluation, the proposed method demonstrates a consistent improvement in the magnitude and phase compared to prior approaches that primarily address one of these aspects.
 
 ## Table of Examples
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Spectrogram Table
-
-| Noisy | RI2RI | MM+NP | MM+PM |
+| Noisy | RI2RI | MM+Noisy phase | MM+PM (our) |
 |-------|-------|-------|-------|
 | ![Noisy 1](path/to/noisy1.png) | ![RI2RI 1](path/to/ri2ri1.png) | ![MM+NP 1](path/to/mmnp1.png) | ![MM+PM 1](path/to/mmpm1.png) |
 | ![Noisy 2](path/to/noisy2.wav) | ![RI2RI 2](path/to/ri2ri2.wav) | ![MM+NP 2](path/to/mmnp2.wav) | ![MM+PM 2](path/to/mmpm2.wav) |
