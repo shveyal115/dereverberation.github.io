@@ -15,6 +15,14 @@ In this work, we present a new single-microphone speech dereverberation algorith
 
 
 ## Table of Examples
+<body>
+    <li>
+        <audio controls>
+            <source src="noisy/0.wav" type="audio/mpeg">
+         </audio>
+    </li>
+<body>
+
 
 | Noisy | RI2RI | MM+NP | MM+PM |
 |-------|-------|-------|-------|
